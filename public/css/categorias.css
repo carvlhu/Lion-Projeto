@@ -1,0 +1,64 @@
+/* Estilização Nav-bar */
+.nav-bar a {
+    color: #626262;
+}
+.nav-bar a:hover {
+    text-decoration: none;
+}
+#menu-selecionado{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 0.29vw;
+}
+/* /Estilização Nav-bar */
+
+/* Main */
+.banner-apresenta-categoria {
+    text-align: center;
+    margin-top: 5.12vw;
+}
+.banner-apresenta-categoria img {
+    max-width: 55%;
+}
+.box-container-categoria {
+    margin-top: 10vw;
+}
+.box-container-categoria h2 {
+    text-align: center;
+    font-size: 2.19vw;
+    font-weight: 500;
+    margin-bottom: 3.66vw;
+}
+.container-produtos {
+    max-width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.container-produtos img {
+    max-width: 50%;
+}
+.container-produtos p {
+    font-size: 1vw;
+    width: 12vw;
+}
+.produtos {
+    padding: 2.19vw;
+    transform: scale(1);
+    transition: 0.4s;
+}
+.produtos:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+/* /Main */
+
+/* Section final */
+.banner-final-categoria img {
+    max-width: 40%;
+    display: flex;
+    text-align: center;
+}
+/* /Section final */

@@ -1,0 +1,199 @@
+/* Transformei todas as medidas em px para vw */
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #EDEDED;
+}
+body::-webkit-scrollbar {
+    width: 0.44vw; 
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(219, 219, 219);
+    border-radius: 0.15vw;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(139, 139, 139);
+    border-radius: 0.22vw;
+}
+
+
+/* Header estilização */
+header{
+    height: 30%;
+    background-color: white;
+    display: flex;
+}
+header img {
+    max-width: 7.32vw;
+    margin-right: 7.32vw;
+}
+header a {
+    margin: 0;
+    margin-left: 6.59vw;
+    color: #000;
+}
+header i {
+    padding: 1.04vw 2.19vw;
+    font-size: 1.61vw;
+    transform: scale(1);
+    transition: 0.4s;
+}
+header .icon-login {
+    display: flex;
+    list-style-type: none;
+    margin-right: 10.98vw;
+}
+header i:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.3s;
+}
+/* /Header estilização */
+
+
+
+/* Nav-Bar Estilização */
+.nav-bar {
+    background-color: #D9D9D9;
+    height: 30%;
+}
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 1.3vw;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.31vw;
+    font-weight: 400;
+}
+.nav-bar a:hover {
+    color: #9c9c9c;
+    text-decoration: underline;
+    text-underline-offset: 0.29vw;
+}
+/* /Nav-Bar Estilização */
+
+
+
+/* Main Estilização */
+.banner-apresenta {
+    text-align: center;
+    margin-top: 5.12vw;
+}
+.banner-apresenta img {
+    max-width: 55%;
+}
+.box-container h1 {
+    text-align: center;
+    margin-top: 10.98vw;
+    font-size: 2.34vw;
+    font-weight: 500;
+}
+.container {
+    width: 60%;
+    display: flex;
+    padding: 3.29vw;
+}
+.container-info {
+    max-width: 70%;
+    margin-top: 2.19vw;
+    margin-left: 3.66vw;
+}
+.container img {
+    width: 15vw;
+}
+.container p {
+    font-size: 1.05vw;
+    color: #757575;
+    font-weight: 500;
+}
+.container-info h4 {
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 1.46vw;
+}
+hr {
+    display: flex;
+    max-width: 80%;
+    height: 0.055vw;
+    color: #696969;
+    margin-top: 7.32vw;
+    margin-bottom: 7.32vw;
+    border-radius: 0.73vw;
+}
+
+.categorias h1 {
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 2.34vw;
+    font-weight: 500;
+    margin-bottom: 3vh;
+}
+.categorias {
+    text-align: center;
+}
+.banners-categorias img {
+    width: 21vw;
+    padding: 2.19vw 2.93vw;
+    transform: scale(1);
+    transition: 0.5s;
+}
+.banners-categorias img:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+/* /Main Estilização */
+
+/* Section Final */
+.banner-final img {
+    max-width: 50%;
+    display: flex;
+    text-align: center;
+}
+/* /Section Final */
+
+/* Rodapé */
+footer {
+    display: flex;
+    margin-bottom: 3.66vw;
+}
+footer p {
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+footer i:hover {
+    transform: scale(0.9);
+    transition: 0.2s;
+    color: #696969;
+}
+footer i {
+    color: #b3b3b3;
+    font-size: 2.92vw;
+    transform: scale(1);
+    transition: 0.2s;
+}
+footer ul {
+    display: flex;
+    margin-top: 2.92vw;
+}
+footer ul li {
+    list-style-type: none;
+    padding: 0 1.46vw;
+}
+.footer-p1 {
+    max-width: 7.32vw;
+    text-align: center;
+} 
+.footer-p2 {
+    text-align: center;
+} 
+/* /Rodapé */
